@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "types": ["react", "react-native", "./declarations.d.ts"],
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "**/*.tsx",
+    "**/*.ts",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "nativewind-env.d.ts",
+    "src/**/*",
+    "declarations.d.ts",
+    "app/screens/OpenCallAdmincopy.tsx"
+, "app/Home.jsx", "app/index.jsx"  ],
+
+  "extends": "expo/tsconfig.base"
+}
